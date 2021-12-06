@@ -1,0 +1,75 @@
+Introduction:
+Plant diseases have an impact on the growth of their species, Due to changes in a global environment and soil eruption, crop production is reduced, and became difficult for the farmer to cultivate and generate income without risks. Hence, early prediction of diseases in plants is critical to saving time and money and further crop losses. Many Machine Learning (ML) models have been used to detect and classify plant illnesses, but recent advances in Deep Learning (DL) which is a subset of Machine learning, appear to have a lot of potential in terms of improved accuracy. The use of deep learning in plant disease recognition can help to avoid the drawbacks of artificially selecting disease spot features, increase the accuracy of plant disease feature extraction, and speed up research and technological transition. In the studies performed so far, different methodologies identified diseases for different species at different accuracy levels. This study discussed the generic deep learning model to identify plant leaf diseases for different species. We anticipate that our research will be useful to researchers who are interested in detecting plant illnesses and insect pests. Simultaneously, we examined some of the current concerns and issues that must be addressed.
+
+Aims:
+Implement machine learning and deep learning algorithms to predict diseases in plants, building hybrid models that enhance the accuracy and model performance to classify each of the diseases of various species by using ensemble methods. 
+
+Objectives:
+The main objective is to build a predictive solution for different species by implementing a single model, which can help the agriculture industry. The scope of the study is open to multiple plant species. To Deep dive algorithmic approaches to enhance model performance and to Conduct studies to improvise cultivation and implement various scientific and mathematical theories.
+
+Research questions:
+•	Is a general ML model feasible to detect disease for various species in plants?
+•	Which deep learning image processing algorithms are optimal for disease detection?
+•	How can the suggested machine learning model bridge the gap between existing individual models? 
+•	what are the benefits and drawbacks of developing a general model which can predict whether a specimen is diseased? 
+•	Is it possible to detect the disease in plants, even before their symptoms appear clearly?
+
+Statement of how the research is novel:
+Viral diseases identification in plants is an interesting research area carried out by scientists in various approaches, identified studies performed using scientific methods by considering samples of plant images, soil, and final yield. Majorly in mathematical and computer science-based research, most of the study is carried using images of plants. (Hammad Saleem, Potgieter and Arif, 2021) Different individual models for cassava (Surtono and Ratu Ayu, 2021), rice leaf (N, E and Bharat, 2021), cotton (Yang Li, 2021), are identified which are developed to identify disease for these species. So far there was no generic model which was developed for identifying diseases in multiples species. In this study, we would like to explore and implement ensemble methods to improve results, i.e., to achieve higher accuracy for the disease prediction for various species. By continuing to analyze different datasets confined to multiple species and diseases, observing ensemble methods could identify diseases in different perspective. Building a generalized framework for predicting changes in the images and to classify images based on the label, there is a huge scope of learning and study involved. However, proposed model is confined to predict disease in different species. 
+Rationale:
+Upon study of various papers available on leaf disease predictions, we have seen different individual models were developed for the prediction of diseases for different species. Thereby, we have identified the scope of developing a single model capable of predicting the disease in different species with a consistent model performance. By developing a single model which can predict the disease in different species, farmers into multiple cropping and other research scientists in the field of agriculture will be benefited as they can use one single model (Application) for all the species rather than relying on multiple models which may tend to work better limited to single species.  It is identified multiple deep learning algorithms are implemented for building predictive solutions, would like to continue this approach and enhance performance with consistency by implementing ensemble methods and traditional machine learning approaches to deliver more accurate results.
+
+Data Selection and Collection:
+
+For the evaluation of the proposed model, we have considered the secondary data collection method. Image data from Kaggle, a community for data scientists consisting of a wide range of data sets is considered. Datasets considered for this research are annotated by several experts and are in a format that most realistically represents what farmers would need to diagnose in real life. As we are working towards a generic classification model it is important to have a balanced data set that would generate higher accuracy models, higher balanced accuracy, and a balanced detection rate. All the data sets which are used for this model are balanced and annotated by experts in the last few years. So, the data here can be considered reliable and trustworthy for our research.  
+
+Evaluation methods: 
+
+To evaluate our model we compute the precision, recall and F1 score, along with the overall accuracy over the whole period of training at regular intervals. We evaluate the applicability of popular deep convolutional neural networks models like AlexNet and GoogLeNet on our problem which are designed in context of the ‘’Large Scale Visual Recognition Challenge’’. 
+
+Analytical process: 
+After, Gathering Existing datasets and identifying new data sources. Traditional approaches like segmentation, feature extraction and classification can be applied to identify the relative changes. Further, below steps are as follows:
+•	Data analysis
+•	Data preprocessing.
+•	Creating feature set for implementation
+•	Transformations of images to generate different representation of images and transformations to enhance datasets.
+•	Model evaluations and building hybrid models to enhance accuracies.  
+
+References
+
+Fao.org. 2021. The world cassava economy. [online] Available at: [Accessed 23 September 2021].
+
+Sambasivam, G. and DuncanOpiyo, G., 2021.A predictive machine learning application in agriculture: Cassava disease detection and classification with imbalanced dataset using convolutional neural networks. [online] www.sciencedirect.com.Availableat: [Accessed 23 September 2021].
+
+Ramcharan, A., Baranowski1, K., McCloskey2, P., Ahmed3, B., Legg, J. and
+P. Hughes, D., 2021. Deep Learning for Image-Based Cassava Disease Detection. [online]www.frontiersin.or.Availableat: [Accessed 23 September 2021].
+
+Atila, Ü., Uçar, M., Akyol, K. and Uçar, E., 2021. Plant leaf disease classification using EfficientNet deep learning model. [online] www.sciencedirect.com. Available at: [Accessed 23 September 2021].
+
+britannica. 2021. cassava | Description, Origin, Poison, Taste, Benefits, & Facts. [online] Available at: [Accessed 23 September 2021].
+
+Ayu, H., Surtono, A. and Apriyanto, D., 2021. Deep learning for detection cassava leafdisease. [online] https://www.researchgate.net/publication/348820193_Deep_learning_for_de tec tion_cassava_leaf_disease. Availableat: [Accessed 23 September 2021]
+
+Saleem, Potgieter & Mahmood Arif (2019). Plant Disease Detection and Classification by Deep Learning. Plants. [Online]. 8 (11). p.p. 468. Available from: http://dx.doi.org/10.3390/plants8110468. [Accessed 23 November 2021]
+
+Zhang, S., Wang, B. and Li, L., 2021. Plant Disease Detection and Classification by Deep Learning—A Review. [online] Ieeexplore.ieee.org. Available at: <https://ieeexplore.ieee.org/document/9399342> [Accessed 23 November 2021].
+
+Ricepedia. 2021. Challenges - Ricepedia. [online] Available at: <https://ricepedia.org/challenges> [Accessed 23 November 2021].
+
+Baraka Abraha, H., 2021. Rice leaf diseases prediction using deep neural networks with transfer learning. [online] ScienceDirect. Available at: <https://www.sciencedirect.com/science/article/abs/pii/S0013935121005697#!> [Accessed 23 November 2021].
+
+Baraka Abraha, H., 2021. Rice leaf diseases prediction using deep neural networks with transfer learning. [online] ScienceDirect. Available at: <https://www.sciencedirect.com/science/article/abs/pii/S0013935121005697#!> [Accessed 23 November 2021].
+
+
+Research Data Management Plan 
+•	Plan is to ingest from different sources to attain various types of data.
+
+•	Primary data source is collected from Kaggle, a huge volume of images is available.
+
+•	Ingest casava plant, rice plant, and various fruits and vegetables plants leaves images and labels to identify different disease in different species by using images. Having huge volume of data is key to build a model using deep learning algorithms.
+
+•	Data ingested is store on google drive to perform study, attain to use cloud resources for
+effective computing by utilizing high end computing units.
+
+•	Data stored in drive is analyzed over google colab environment. Google colab is a coding
+•	Platform to write python code and run-on computing units to including GPU and TPU’s.
